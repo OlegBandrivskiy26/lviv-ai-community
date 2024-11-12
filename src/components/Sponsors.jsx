@@ -11,18 +11,18 @@ const Sponsors = () => {
         speed: 500,
         slidesToShow: 3,
         slidesToScroll: 3,
-        autoplay: true,            // автоматична прокрутка
+        autoplay: true,            
         autoplaySpeed: 2000, 
         responsive: [
             {
-                breakpoint: 768, // планшети
+                breakpoint: 768, 
                 settings: {
                     slidesToShow: 2,
                     slidesToScroll: 2,
                 }
             },
             {
-                breakpoint: 480, // мобільні пристрої
+                breakpoint: 480, 
                 settings: {
                     slidesToShow: 1,
                     slidesToScroll: 1,
@@ -43,6 +43,7 @@ const Sponsors = () => {
                     <div><div className='sponsors__img sponsors__img6'></div></div>
                     <div><div className='sponsors__img sponsors__img7'></div></div>
                     <div><div className='sponsors__img sponsors__img8'></div></div>
+                    <div><div className='sponsors__img sponsors__img9'></div></div>
                 </Slider>
             </div>
         </div>

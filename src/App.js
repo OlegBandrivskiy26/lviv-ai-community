@@ -1,4 +1,5 @@
 import About from './components/About';
+import ButtonRegistaration from './components/ButtonRegistaration';
 import Footer from './components/Footer';
 import Header from './components/Header';
 import Program from './components/Program';
@@ -17,6 +18,7 @@ function App() {
       <Program/>
       <Sponsors/>
       <Footer/>
+      <ButtonRegistaration/>
     </div>
   );
 }

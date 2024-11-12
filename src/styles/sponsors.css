@@ -42,6 +42,9 @@
 .sponsors__img8{
     background-image: url(../img/extela.jpg);
 }
+.sponsors__img9{
+    background-image: url(../img/blackthorn.jpg);
+}
 .slider-container .slick-slide {
     height: 100%;
     display: flex;

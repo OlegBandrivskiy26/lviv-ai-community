@@ -25,7 +25,7 @@ footer{
 .logo__footer{
     width: 95px;
     height: 61px;
-    background-image: url(../img/logo-header.svg);
+    background-image: url(../img/logo2.svg);
     background-size: cover;
 }
 .social__networks__grp{
@@ -142,5 +142,8 @@ footer{
     .copyright {
         margin-top: 10px;
         text-align: center;
+    }
+    .logo__footer{
+        margin-bottom: 15px;
     }
 }

@@ -87,6 +87,17 @@ const Speakers = () => {
                     <h4>Research Lead at Lviv IT-Cluster</h4>
                 </div>
             </div>
+            <div className="speakers__content__txt">
+                <div className="speakers__txt__end">
+                    <h3>Бойчук Андрій </h3>
+                    <h4>Head of AI at Blackthorn AI</h4>
+                </div>
+                <div className="speakers__img10 speakers__img"></div>
+                <div className="speakers__txt__adaptive">
+                    <h3>Бойчук Андрій </h3>
+                    <h4>Head of AI at Blackthorn AI</h4>
+                </div>
+            </div>
         </div>
     </section>
   )
