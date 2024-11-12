@@ -54,7 +54,7 @@
   }
 @media screen  and (max-width: 425px) {
    .welcome__page__img{
-    background-image: url(../img/bg__new__desktop.png);
+    background-image: url(../img/bg__phone__new2.png);
     background-position: center;
    }
    .scroll__btn{
