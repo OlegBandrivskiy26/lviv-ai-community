@@ -29,7 +29,7 @@ footer{
     background-size: cover;
 }
 .social__networks__grp{
-    width: 150px;
+    width: 80px;
     height: 32px;
     display: flex;
     align-items: center;
@@ -104,37 +104,43 @@ footer{
     footer {
         height: auto;
         padding: 20px 0;
-        display: flex;
-        justify-content: center; /* Центруємо контейнер футера */
     }
+
     .footer__container {
         width: 90%;
         height: auto;
         display: flex;
-        flex-direction: row; /* Розташовуємо групи зліва направо */
-        justify-content: space-around; /* Додаємо простір між групами */
-        align-items: center; /* Вирівнюємо елементи по центру */
+        flex-direction: column; /* Розміщує елементи вертикально */
+        align-items: center; /* Центрує елементи */
         gap: 20px;
-        flex-wrap: wrap; /* Додаємо перенос елементів, якщо ширини екрана недостатньо */
     }
+
     .first__grp, .contact__info, .footer__nav__menu {
-        width: auto;
+        width: 100%;
         display: flex;
-        flex-direction: column; /* Розташовуємо елементи всередині групи вертикально */
-        text-align: left; /* Вирівнюємо текст по лівому краю */
-        align-items: flex-start; /* Вирівнюємо елементи всередині групи по лівому краю */
+        flex-direction: column;
+        align-items: center; /* Центрує елементи */
+        text-align: center;
     }
+
     .social__networks__grp {
         display: flex;
-        justify-content: flex-start; /* Іконки вирівнюються зліва */
-        gap: 10px;
+        justify-content: center;
+        gap: 20px;
     }
+
     .nav__items__footer {
         font-size: 14px;
         margin: 5px 0;
     }
-    .copyright{
-        margin-top: 5px;
+    .title__contact{
+        margin-bottom: 5px;
+    }
+    .txt__contact{
+        margin-bottom: 5px;
+    }
+    .copyright {
+        margin-top: 10px;
+        text-align: center;
     }
 }
-

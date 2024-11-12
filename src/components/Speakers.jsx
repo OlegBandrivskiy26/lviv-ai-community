@@ -69,6 +69,24 @@ const Speakers = () => {
                     <h4>COO at Pecode OU</h4>
                 </div>
             </div>
+            <div className="speakers__content__txt">
+                <div className="speakers__txt__end">
+                    <h3>Гліб Щур </h3>
+                    <h4>CEO and Co-Founder of EXTELA</h4>
+                </div>
+                <div className="speakers__img8 speakers__img"></div>
+                <div className="speakers__txt__adaptive">
+                    <h3>Гліб Щур </h3>
+                    <h4>CEO and Co-Founder of EXTELA</h4>
+                </div>
+            </div>
+            <div className="speakers__content__img">
+                <div className="speakers__img9 speakers__img"></div>
+                <div className="speakers__txt">
+                    <h3>Ярина Возняк</h3>
+                    <h4>Research Lead at Lviv IT-Cluster</h4>
+                </div>
+            </div>
         </div>
     </section>
   )

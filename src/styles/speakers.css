@@ -104,6 +104,13 @@
 .speakers__img7{
     background-image: url(../img/photo_2024-11-08_19-19-06.jpg);
 }
+.speakers__img8{
+    background-image: url(../img/glib.jpg);
+}
+.speakers__img9{
+    background-image: url(../img/jaruna.jpg);
+    background-position: center;
+}
 .speakers__txt__adaptive{
     display: none;
 }

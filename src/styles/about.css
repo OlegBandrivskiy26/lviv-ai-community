@@ -46,10 +46,12 @@
     justify-content: space-between;
     flex-direction: column;
 }
+
 .p__about{
     font-size: 18px;
     font-weight: 400;
     color: #2F2E33;
+    line-height: 32px;
 }
 .p__about span{
     font-weight: 700;
@@ -58,7 +60,7 @@
     font-size: 18px;
     font-weight: 700;
     color: #2F2E33;
-    line-height: 60px;
+    line-height: 30px;
 }
 
 li{
@@ -78,7 +80,7 @@ li{
 }
 @media screen and (max-width: 425px){
     .about{
-        min-height: 150vh;
+        min-height: 210vh;
         margin: 0;
         padding: 0;
         align-items: center;
@@ -103,7 +105,6 @@ li{
     }
     li{
         font-size: 13px;
-        line-height: 20px;
     }
     .title__container{
         width: 95%;

@@ -9,16 +9,15 @@ const Footer = () => {
             <div className="first__grp">
                 <div className="logo__footer"></div>
                 <div className="social__networks__grp">
-                    <div className="social__networks instagram"></div>
-                    <div className="social__networks Facebook"></div>
-                    <div className="social__networks linkedIn"></div>
+                    <a href="https://www.instagram.com/ai_lpnu?igsh=MW1qNnY3eXFyZjIzag=="><div className="social__networks instagram"></div></a>
+                    <a href="https://www.facebook.com/ai.lviv.ua/"><div className="social__networks Facebook"></div></a>
                 </div>
                 <h5 className="copyright">Copyright © by Oleg Bandrivskiy</h5>
             </div>
             <div className="contact__info">
                 <h4 className="title__contact">Контактна інформація</h4>
-                <h5 className='txt__contact'>info@itmeets.com.ua</h5>
-                <h5 className='txt__contact'>067 827 32 81</h5>
+                <h5 className='txt__contact'>ai.dept@lpnu.ua</h5>
+                {/* <h5 className='txt__contact'>067 827 32 81</h5> */}
                 <h5 className='txt__contact'>Пн-пт 10.00-19.00</h5>
             </div>
             <div className="footer__nav__menu">
