@@ -1,0 +1,28 @@
+.sponsors{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sponsors__container{
+    width: 80%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.sponsors__img{
+    width: 250px;
+    height: 250px;
+    background-size: cover;
+}
+.sponsors__img1{
+    background-image: url(../img/brainstack.png);
+}
+.sponsors__img2{
+    background-image: url(../img/n-ix.png);
+}
+.sponsors__img3{
+    background-image: url(../img/pecode.png);
+}

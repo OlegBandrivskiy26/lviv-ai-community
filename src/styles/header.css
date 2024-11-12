@@ -1,0 +1,69 @@
+header{
+    width: 100%;
+    height: 8vh;
+    background: rgb(29,29,27);
+    background: linear-gradient(90deg, rgba(29,29,27,1) 46%, rgba(121,41,227,1) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+}
+.logo__container{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.logo{
+   width: 85px;
+   height: 51px;
+   background-image: url(../img/logo-header.svg);
+   background-size: cover; 
+}
+.nav__menu__container{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav__items{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    position: relative;
+    cursor: pointer;
+}
+.left, .nav__items::before{
+    content: '';
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    background-color: #fff;
+    transition: 0.2s;
+}
+.left, .nav__items:hover::before{
+    width: 100%;
+}
+@media screen and (max-width: 425px){
+    .nav__items{
+        font-size: 10px;
+    }
+    .logo__container{
+        width: 18%;
+        margin-left: 10px;
+    }
+    .nav__menu__container{
+        width: 80%;
+    }
+    .logo{
+        width: 65px;
+        height: 31px;
+    }
+}

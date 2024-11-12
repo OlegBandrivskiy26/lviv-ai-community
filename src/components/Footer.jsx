@@ -1,0 +1,35 @@
+import React from 'react'
+import "../styles/footer.css"
+import { Link } from 'react-scroll'
+
+const Footer = () => {
+  return (
+    <footer>
+        <div className="footer__container">
+            <div className="first__grp">
+                <div className="logo__footer"></div>
+                <div className="social__networks__grp">
+                    <div className="social__networks instagram"></div>
+                    <div className="social__networks Facebook"></div>
+                    <div className="social__networks linkedIn"></div>
+                </div>
+                <h5 className="copyright">Copyright © by Oleg Bandrivskiy</h5>
+            </div>
+            <div className="contact__info">
+                <h4 className="title__contact">Контактна інформація</h4>
+                <h5 className='txt__contact'>info@itmeets.com.ua</h5>
+                <h5 className='txt__contact'>067 827 32 81</h5>
+                <h5 className='txt__contact'>Пн-пт 10.00-19.00</h5>
+            </div>
+            <div className="footer__nav__menu">
+                <Link className='nav__items__footer' to="about" smooth={true} offset={-100} duration={500}>Про подію</Link>
+                <Link className='nav__items__footer' to="speakers" smooth={true} offset={-100} duration={500}>Спікери</Link>
+                <Link className='nav__items__footer' to="program" smooth={true} offset={-100} duration={500}>Програма</Link>
+                <Link className='nav__items__footer' to="sponsors" smooth={true} offset={-100} duration={500}>Спонсори</Link>
+            </div>
+        </div>
+    </footer>
+  )
+}
+
+export default Footer
