@@ -45,6 +45,21 @@
 .sponsors__img9{
     background-image: url(../img/blackthorn.jpg);
 }
+.sponsors__img10{
+    background-image: url(../img/soft-serve.jpeg);
+}
+.sponsors__img11{
+    background-image: url(../img/epam.jpeg);
+}
+.sponsors__img12{
+    background-image: url(../img/hulp.jpeg);
+}
+.sponsors__img13{
+    background-image: url(../img/original.jpeg.png);
+}
+.sponsors__img14{
+    background-image: url(../img/help.PNG);
+}
 .slider-container .slick-slide {
     height: 100%;
     display: flex;

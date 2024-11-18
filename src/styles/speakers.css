@@ -114,6 +114,27 @@
 .speakers__img10{
     background-image: url(../img/andriy.jpg);
 }
+.speakers__img11{
+    background-image: url(../img/kostiv.jpg);
+    background-position: center;
+}
+.speakers__img12{
+    background-image: url(../img/demkiv.png);
+}
+.speakers__img13{
+    background-image: url(../img/laskovskiy.jpg);
+}
+.speakers__img14{
+    background-image: url(../img/tr.png);
+}
+.speakers__img15{
+    background-image: url(../img/shahovska.jpg);
+    background-position: center;
+}
+.speakers__img16{
+    background-image: url(../img/melnukova.jpg);
+    background-position: center;
+}
 .speakers__txt__adaptive{
     display: none;
 }

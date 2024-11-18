@@ -12,7 +12,7 @@ const Sponsors = () => {
         slidesToShow: 3,
         slidesToScroll: 3,
         autoplay: true,            
-        autoplaySpeed: 2000, 
+        autoplaySpeed: 5000, 
         responsive: [
             {
                 breakpoint: 768, 
@@ -44,6 +44,11 @@ const Sponsors = () => {
                     <div><div className='sponsors__img sponsors__img7'></div></div>
                     <div><div className='sponsors__img sponsors__img8'></div></div>
                     <div><div className='sponsors__img sponsors__img9'></div></div>
+                    <div><div className='sponsors__img sponsors__img10'></div></div>
+                    <div><div className='sponsors__img sponsors__img11'></div></div>
+                    <div><div className='sponsors__img sponsors__img12'></div></div>
+                    <div><div className='sponsors__img sponsors__img13'></div></div>
+                    <div><div className='sponsors__img sponsors__img14'></div></div>
                 </Slider>
             </div>
         </div>

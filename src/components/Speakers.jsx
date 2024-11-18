@@ -98,6 +98,60 @@ const Speakers = () => {
                     <h4>Head of AI at Blackthorn AI</h4>
                 </div>
             </div>
+            <div className="speakers__content__img">
+                <div className="speakers__img11 speakers__img"></div>
+                <div className="speakers__txt">
+                    <h3>Ігор Костів</h3>
+                    <h4>AVP of Engineering at GlobalLogic</h4>
+                </div>
+            </div>
+            <div className="speakers__content__txt">
+                <div className="speakers__txt__end">
+                    <h3>Любомир Демків </h3>
+                    <h4>Ph.D., Director, Robotics & Advanced Automation Group at SoftServe</h4>
+                </div>
+                <div className="speakers__img12 speakers__img"></div>
+                <div className="speakers__txt__adaptive">
+                    <h3>Любомир Демків</h3>
+                    <h4>Ph.D., Director, Robotics & Advanced Automation Group at SoftServe</h4>
+                </div>
+            </div>
+            <div className="speakers__content__img">
+                <div className="speakers__img13 speakers__img"></div>
+                <div className="speakers__txt">
+                    <h3>Лясковський Дмитро</h3>
+                    <h4>EPAM Systems Head of Data Analytics Ukraine</h4>
+                </div>
+            </div>
+            <div className="speakers__content__txt">
+                <div className="speakers__txt__end">
+                    <h3>Ігор Павлішевський </h3>
+                    <h4>Очільник асоціації випускників НУЛП</h4>
+                </div>
+                <div className="speakers__img14 speakers__img"></div>
+                <div className="speakers__txt__adaptive">
+                    <h3>Ігор Павлішевський</h3>
+                    <h4>Очільник асоціації випускників НУЛП</h4>
+                </div>
+            </div>
+            <div className="speakers__content__img">
+                <div className="speakers__img15 speakers__img"></div>
+                <div className="speakers__txt">
+                    <h3>Шаховська Наталія</h3>
+                    <h4>д.т.н, професор, Директор ІКНІ НУЛП</h4>
+                </div>
+            </div>
+            <div className="speakers__content__txt">
+                <div className="speakers__txt__end">
+                    <h3>Мельникова Наталія</h3>
+                    <h4>д.т.н, завідувач кафедри CШІ НУЛП</h4>
+                </div>
+                <div className="speakers__img16 speakers__img"></div>
+                <div className="speakers__txt__adaptive">
+                    <h3>Мельникова Наталія</h3>
+                    <h4>д.т.н, завідувач кафедри СШІ НУЛП</h4>
+                </div>
+            </div>
         </div>
     </section>
   )

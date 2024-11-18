@@ -70,7 +70,8 @@ const Program = () => {
             Павлішевський Ігор, 
             Шаховська Наталя,
             Ігор Костів,
-            Лясковський Дмитро
+            Лясковський Дмитро,
+            Демків Любомир
             </h4>
           </div>
         </div>
@@ -100,7 +101,10 @@ const Program = () => {
             <h4>14:45 - 15:15</h4>
           </div>
           <div className="event__container">
-            <h4><span>Aукціон</span></h4>
+            <h4><span>Aукціон</span> 
+            <br /> Help a Hero - Волонтерська Організація небайдужих та відповідальних людей.
+            <br /><a href="https://helpahero.com.ua/" rel="noreferrer" target="_blank">Сайт</a> 
+            </h4>
           </div>
         </div>
         <hr />
