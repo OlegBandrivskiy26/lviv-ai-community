@@ -33,7 +33,7 @@ const Program = () => {
           </div>
           <div className="event__container">
             <h4><span>Вступне слово</span> <br />
-              Шаховська Наталя
+              Шаховська Наталя, Завгородній Іван
               </h4>
           </div>
         </div>
