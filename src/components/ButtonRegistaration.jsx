@@ -3,9 +3,9 @@ import "../styles/app.css"
 
 const ButtonRegistaration = () => {
   return (
-   <a href="https://docs.google.com/forms/d/e/1FAIpQLSceSVMGMsc5tBwcByOC8l-vwsmlzKRFUk3lS6py-mIAGnpG5A/viewform"> 
+   <a href="https://youtube.com/live/qNuBXoPHa3c?feature=share"> 
          <button className='scroll__btn'>
-            Реєстрація
+            Трансляція 
         </button>
     </a>
   )
